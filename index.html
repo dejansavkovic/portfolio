@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+
+#navbar {
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  background-color: #FAEBD7;
+  padding: 5px;
+  font-size: 1.2em;
+  z-index: 1;
+}
+
+#navbar a {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#navbar li {
+  margin-right: 40px;
+}
+
+#navbar li:hover {
+  color: silver;
+}
+
+#welcome-section {
+  background: url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40vh;
+  min-height: 60vh;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  position: relative;
+  color: red;
+}
+
+#projects {
+  padding-top: 20px;
+}
+
+#projects h2 {
+  text-align: center;
+ 
+}
+
+.project-tile {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid gray;
+  height: 210px;
+  width: 290px;
+  margin: 40px;
+}
+
+.project-title {
+  margin: 5px;
+}
+
+.show-all {
+  border: 1px solid yellow;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  padding: 10px;
+  font-weight: bold;
+  color: yellow;
+  background-color: darkslateblue;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.show-all:hover {
+  background-color: blueviolet;
+}
+
+
+#contact {
+ 
+}
+
+.header {
+  padding: 120px;
+}
+
+#contact a {
+
+}
+
+footer a:hover {
+  background-color: yellow;
+  color: black;
+
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #A9A9A9;
+  text-align: center;
+}
+
+footer a {
+
+  display: inline-block;
+  margin: 20px 20px 80px 30px;
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    text-align: center;
+  }
+  nav li {
+    margin: 10px;
+  }
+  #projects {
+    margin: 20px 0;
+  }
+}
+    </style>
+</head>
+<body>
+    
+
+<nav id="navbar">
+  <a href="#welcome-section"><li>Home</li></a>
+  <a href="#welcome-section"><li>About</li></a>
+  <a href="#projects"><li>Work</li></a>
+  <a href="#contact"><li>Contact</li></a>
+</nav>
+
+<div id="welcome-section">
+  
+  <h1>Welcome to my Portfolio</h1>
+  
+</div>
+
+<div>
+  
+  <h2 id="projects">These are some of my projects...</h2>
+  
+  <a href="#" target="_blank" class="project-tile">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlnNBCdA2Pz6r-vFJ6w2ZxvocFfxUfMAAUiikORjX85BxALwYhA" alt="project">
+    <div class="project-title">Tribute Page</div>
+  </a>
+  
+  <a href="#" target="_blank" class="project-tile">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlnNBCdA2Pz6r-vFJ6w2ZxvocFfxUfMAAUiikORjX85BxALwYhA" alt="project">
+    <div class="project-title">Survey Form</div>
+  </a>
+  
+  <a href="#" target="_blank" class="project-tile">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlnNBCdA2Pz6r-vFJ6w2ZxvocFfxUfMAAUiikORjX85BxALwYhA" alt="project">
+    <div class="project-title">Landing Page</div>
+  </a>
+  
+  <a href="#" target="_blank" class="project-tile">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlnNBCdA2Pz6r-vFJ6w2ZxvocFfxUfMAAUiikORjX85BxALwYhA" alt="project">
+    <div class="project-title">Technical Document Page</div>
+  </a>
+  
+  
+</div>
+
+<div id="contact">
+  
+ 
+  
+ 
+  
+</div>
+
+
+<footer>
+  </div class="header">
+  
+  <a href="https://facebook.com" target="_blank" id="profile-link">Facebook</a>
+  <a href="https://github.com" target="_blank" id="profile-link">GitHub</a>
+  <a href="https://twitter.com" target="_blank" id="profile-link">Twitter</a>
+  <a href="https://linkedin.com" target="_blank" id="profile-link">LinkedIn</a>
+  
+</div>
+    <p> -This is my simple example of portfolio- </p>
+</footer>
+
+
+
+</body>
+</html>
